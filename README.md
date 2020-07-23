@@ -27,7 +27,7 @@ From the root of the directory you created with the students.txt file at the roo
 
 ```
 for i in `cat students.txt`; do
-  git clone git@github.com:$i/<repository_name> $i
+  git clone git@github.com:$i/denver_public_library_2006 $i
   cd $i
   git pull origin spec # this will cause a merge commit message
   rspec
